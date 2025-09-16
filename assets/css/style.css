@@ -88,14 +88,17 @@ header {
 
 .top {
     position: relative;
+    color: var(--w-text);
 
     .onsale {
         background-color: var(--onsale);
+        padding: 0.2rem;
     }
 
     .sus {
         background-color: var(--sus);
         margin-left: 3px;
+        padding: 0.2rem;
     }
 
 }
@@ -103,4 +106,25 @@ header {
 .tags {
     position: absolute;
     top: 85%;
+}
+
+.bottom {
+
+    .brand {
+        font-size: 0.8rem;
+    }
+    
+    .name {
+        font-weight: bold;
+    }
+    
+    .sale {
+        color: red;
+    }
+    
+    .price {
+        color: grey;
+        text-decoration-line: line-through;
+    }
+    
 }
