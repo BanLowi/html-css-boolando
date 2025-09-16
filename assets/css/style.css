@@ -63,14 +63,12 @@ body {
 .card {
     width: 30%;
     max-width: 30%;
-    margin: auto;
 }
 
 /* header */
 
 header {
     background-color: var(--header-primary);
-    padding: 1rem;
 
     a {
         color: var(--w-text);
@@ -85,6 +83,8 @@ header {
 
 .top {
     position: relative;
+
+    
 }
 
 .tags {
