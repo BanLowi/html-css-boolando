@@ -17,6 +17,13 @@ body {
     /* min-width: 1200px; */
 }
 
+/* colors */
+
+:root {
+    --w-text: white;
+    --header-primary: #ff6900;
+}
+
 /* debug  */
 
 .debug {
@@ -38,4 +45,26 @@ body {
 
 .c-align {
     align-items: center;
+}
+
+/* container */
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+/* header */
+
+header {
+    background-color: var(--header-primary);
+    padding: 1rem;
+
+    a {
+        color: var(--w-text);
+    }
+
+    img {
+        height: 2rem;
+    }
 }
