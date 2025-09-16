@@ -56,12 +56,13 @@ body {
 
 .container {
     width: 80%;
-    max-width: 1200px;
+    max-width: 80%;
     margin: auto
 }
 
 .card {
     width: 30%;
+    max-width: 30%;
     margin: auto;
 }
 
@@ -82,29 +83,11 @@ header {
 
 /* main */
 
-main {
-    margin: auto;
-    margin-top: 2rem;
-    max-width: 1200px;
+.top {
+    position: relative;
+}
 
-    .card {
-
-        span {
-            
-            padding: 0.3rem;
-            font-size: 0.8rem;
-            color: white;
-        }
-
-        .onsale {
-            background-color: var(--onsale);
-        }
-
-        .sus {
-            background-color: var(--sus);
-            right: -7.5rem;
-        }
-
-    }
-
+.tags {
+    position: absolute;
+    top: 85%;
 }
