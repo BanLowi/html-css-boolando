@@ -101,11 +101,21 @@ header {
         padding: 0.2rem;
     }
 
+    .img-hover {
+        position: absolute;
+        opacity: 0;
+    }
+
+}
+
+.top:hover .img-hover {
+    opacity: 1;
 }
 
 .tags {
     position: absolute;
     top: 85%;
+    z-index: 1;
 }
 
 .bottom {
@@ -113,18 +123,18 @@ header {
     .brand {
         font-size: 0.8rem;
     }
-    
+
     .name {
         font-weight: bold;
     }
-    
+
     .sale {
         color: red;
     }
-    
+
     .price {
         color: grey;
         text-decoration-line: line-through;
     }
-    
+
 }
