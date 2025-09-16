@@ -22,6 +22,9 @@ body {
 :root {
     --w-text: white;
     --header-primary: #ff6900;
+    --footer-primary: #1a1a1a;
+    --heart-primary: #1a1a1a;
+    --heart-hoover: #e93838;
 }
 
 /* debug  */
