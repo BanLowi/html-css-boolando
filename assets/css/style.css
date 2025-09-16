@@ -14,7 +14,7 @@ a {
 
 body {
     font-family: sans-serif;
-    min-width: 1200px;
+    /* min-width: 1200px; */
 }
 
 /* debug  */
@@ -30,4 +30,12 @@ body {
 
 .d-flex {
     display: flex;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.c-align {
+    align-items: center;
 }
