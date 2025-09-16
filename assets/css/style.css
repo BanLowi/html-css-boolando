@@ -70,6 +70,11 @@ body {
 header {
     background-color: var(--header-primary);
 
+    .container {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
     a {
         color: var(--w-text);
     }
@@ -84,7 +89,15 @@ header {
 .top {
     position: relative;
 
-    
+    .onsale {
+        background-color: var(--onsale);
+    }
+
+    .sus {
+        background-color: var(--sus);
+        margin-left: 3px;
+    }
+
 }
 
 .tags {
