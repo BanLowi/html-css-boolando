@@ -25,6 +25,7 @@ body {
     --footer-primary: #1a1a1a;
     --heart-primary: #1a1a1a;
     --heart-hoover: #e93838;
+    --heart-bg: white;
     --onsale: #ff0000;
     --sus: #008000;
 }
@@ -99,6 +100,21 @@ header {
         background-color: var(--sus);
         margin-left: 3px;
         padding: 0.2rem;
+    }
+
+    .heart {
+        background-color: var(--heart-bg);
+        color: black;
+        font-size: 2rem;
+        padding: 0.3rem 0.8rem;
+        position: absolute;
+        right: 0;
+        top: 1%;
+        z-index: 1
+    }
+
+    .heart:hover {
+        color: red;
     }
 
     .img-hover {
