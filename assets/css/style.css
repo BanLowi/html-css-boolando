@@ -53,6 +53,10 @@ body {
     align-items: center;
 }
 
+.wrap {
+    flex-wrap: wrap;
+}
+
 /* container */
 
 .container {
@@ -64,6 +68,7 @@ body {
 .card {
     width: 30%;
     max-width: 30%;
+    margin-top: 2rem;
 }
 
 /* header */
@@ -93,13 +98,13 @@ header {
 
     .onsale {
         background-color: var(--onsale);
-        padding: 0.2rem;
+        padding: 0.4rem;
+        margin-right: 3px;
     }
 
     .sus {
         background-color: var(--sus);
-        margin-left: 3px;
-        padding: 0.2rem;
+        padding: 0.4rem;
     }
 
     .heart {
@@ -132,6 +137,8 @@ header {
     position: absolute;
     top: 85%;
     z-index: 1;
+    font-size: 0.8rem;
+    font-weight: bold;
 }
 
 .bottom {
@@ -146,6 +153,7 @@ header {
 
     .sale {
         color: red;
+        font-size: 0.8rem;
     }
 
     .price {
